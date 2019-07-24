@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap --ignore-prepublish",
-    "publish-packages": "lerna publish from-package"
+    "publish-packages": "lerna publish"
   },
   "devDependencies": {
     "@lerna/filter-options": "^3.16.0",
