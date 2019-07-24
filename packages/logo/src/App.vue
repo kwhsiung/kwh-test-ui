@@ -2,7 +2,7 @@
   <img
     class="logo"
     :src="require(`./assets/readr-logo-${theme}.svg`)"
-    alt="READr logo"
+    alt="READr logo make some change"
   />
 </template>
 
