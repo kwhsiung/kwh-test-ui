@@ -2,6 +2,9 @@
   "name": "@kwh-test-ui/logo",
   "version": "1.0.0",
   "main": "dist/Logo.common.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "prebuild": "npm run lint",
@@ -45,5 +48,5 @@
     "stylus-loader": "^3.0.2",
     "vue-template-compiler": "^2.6.10"
   },
-  "gitHead": "6027a1aaf8924113cc5cbcdba5184a7c9954b1de"
+  "gitHead": "9a3611545810184a976236b01b427f0f71a79755"
 }
