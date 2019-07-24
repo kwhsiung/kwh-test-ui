@@ -9,5 +9,10 @@
     "@lerna/filter-options": "^3.16.0",
     "husky": "^3.0.1",
     "lerna": "^3.16.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lerna run --concurrency 1 --stream precommit --since master"
+    }
   }
 }
